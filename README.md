@@ -15,7 +15,6 @@ Other requirements:
 - Credential that has permission to SSH to target device and perform various 'show' commands (only necessary for "online" mode).
 - Port 22 connectivity to target device (only necessary for "online" mode).
 - A "show run" config file for the target switch (only necessary for "offline" mode).
-- A Cisco IOS XE NDM V2R2 CKL (this is already included in this repository if you need it).
 
 ## Name
 Cisco IOS XE NDM STIGenator
@@ -27,7 +26,7 @@ This is a project coded in Python to automate performing the Cisco IOS XE NDM ST
 Paramiko is the only non-default library used in this program. It will need to be installed in order for the current configuration to be gathered.
 
 ## Usage
-You'll need both Python scripts in the same folder to get started. You'll run the Cisco_NDM_V2R2_STIGenator_v1.0.py script then you'll see several prompts for the target device, username, password, and target CKL file to be filled out. If the ssh connection is successful, it will immediately start performing the STIG checks. 
+You'll need both Python scripts in the same folder to get started. You'll run the Cisco_NDM_V2R2_STIGenator_v1.1.py script then you'll see several prompts for the target device, username, password, and target CKL file to be filled out. If the ssh connection is successful, it will immediately start performing the STIG checks. 
 
 IMPORTANT: If you have any not applicable STIGs on the NDM checklist, be sure to mark them as Not Applicable BEFORE running the script! If the script sees that the current status is Not Applicable, it will skip that STIG check to not cause any unnecessary false positives.
 
@@ -47,7 +46,7 @@ By entering 'yes', the script will prompt you for target device IP/hostname then
 After you make your choice, it will begin parsing the configs for STIG compliance.
 
 ## Support
-Feel free to create issues on this project but the fastest way to contact me would be on Teams: alex.d.dean3.ctr@us.navy.mil or Fusion Chat: @alexdean
+Feel free to create issues on this project!
 
 ## Roadmap
 Things to be added in the future:
