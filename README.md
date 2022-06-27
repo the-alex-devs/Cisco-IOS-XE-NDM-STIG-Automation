@@ -1,6 +1,6 @@
 # Cisco IOS XE NDM STIGenator Python STIG Script
 
-This is a project coded in Python to automate performing the Cisco IOS XE NDM STIG checks and filling out the CKL with results of the STIG checks.
+This is a project coded in Python to automate performing the Cisco IOS XE NDM STIG checks and filling out the CKL with results of the STIG checks. The Cisco IOS XE NDM STIGs are publically available on public.cyber.mil.
 
 ## Getting started
 
