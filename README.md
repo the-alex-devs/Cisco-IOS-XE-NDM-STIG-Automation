@@ -2,13 +2,11 @@
 
 This is a project coded in Python to automate performing the Cisco IOS XE NDM STIG checks and filling out the CKL with results of the STIG checks. The Cisco IOS XE NDM STIGs are publically available on public.cyber.mil.
 
+This project was built on Python 3.10.
+
 ## Getting started
 
 Python requirements:
-- xml.etree
-- getpass
-- tkinter
-- pathlib
 - Paramiko
 
 Other requirements:
